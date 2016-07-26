@@ -1,0 +1,245 @@
+
+/* --------------公共样式 -----------------*/
+html,body{
+	width: 100%;
+	height: auto;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0
+}
+ol,ul {
+	list-style: none
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+legend {
+	color: #000
+}
+fieldset,img {
+	border: 0
+}
+button,input,select,textarea {
+	font-size: 100%
+}
+
+.left{float:left;}
+.right{float:right;}
+
+.contain{width:1090px;margin:0 auto;}
+
+.warp{ width:100%;border-bottom:1px solid #e5e5e5;background:#f2f2f2;}
+.top{height:32px;position: relative;}   
+.top_L{width:230px;height:32px;font-size: 12px;line-height: 30px;float:left;}
+.top_L span{color: #6c6c6c;}
+.top_L a{color:#ec3e7d;}
+.top_L1{margin:0 4px;}
+.top_R{width:550px;height:32px;float:right;}
+.top_R li{float:left;font-size: 12px;line-height: 32px;padding:0 12px;}
+.top_R li .ab{display:block;}
+.top_R .tb{display: block;}
+.top_R ul li:hover{background-color:#fff;}
+.top_R img{float:left;margin: 8px 4px 0 0;}
+.top_R span{width:10px;background:url(../image/tubiao4.jpg)no-repeat center center;
+    margin-left:5px;display:inline-block;height:32px;float:right;}
+.topjs{position:absolute;top:32px;z-index:2;padding-left:17px;border:1px solid #ededed;
+    border-top:none;background:#fff;display: none;}      
+.topjs p{width:89px;height:28px;line-height:28px;display:block;margin-left: 8px;}
+.topjs p a{display:block;}
+.topjs p a:hover{color:#ec3e7d;}
+
+
+/*----尾部-----------------------------------------------------------------------------------------------------*/
+
+.footer_ward{width:100%;height:436px;overflow: hidden;border-top: 4px solid #c69a62;}
+.footer{width:1090px;height:250px;padding-top:30px;margin:0 auto;}	
+.page{width:1090px;height:250px;}
+.page .logo2{width:230px;height:220px;background:url(../image/logo02.png) no-repeat;margin-top: 30px;}
+
+.helper{width:120px;height:223px;margin-top: 27px;}
+.helper dt{margin-bottom: 8px;}
+.helper dt a{color:#ec3e7d;font-size:12px;font-weight: bold;}
+.helper	dd li{line-height: 25px;}
+.helper	dd li a{color:#3e3e3e;font-size:12px;}	
+.helper dd li a:hover{color:#000000;}
+.erwei{width:260px;height:225px;float:right;padding-top: 25px;text-align: center;}
+.erwei h3{width:130px;height:250px;float:left;}
+
+.footerlist_ward{width:100%;height:52px;border:1px solid #e8e8e8;}
+.footerlist{width:1007px;height:52px;margin:0 auto;padding-left: 70px;}
+.footerlist ul{width:960px;height:52px;}
+.footerlist li{float:left;}
+.footerlist li a{font-size: 14px;margin:0 17px;color: #c69a62;line-height: 52px;}
+.footerlist li a:hover{color:#000000;}
+.footer_L{width:100%;}
+.footer_L1{width:1040px;height:76px;margin:0 auto;padding-left: 50px;}
+.footer_L1 p{color:#999999;line-height: 76px;font-size:12px;}
+.footer_L1 p span{margin-left: 550px;}
+
+
+
+.hl4{width:225px;height:22px;margin-left: 15px;margin-top: 5px;}
+.hl4 a{font-weight: bold;font-size: 11px;margin-left: 5px;}
+
+.hl5{width:203px;height:28px;margin-left: 37px;border-bottom: 1px solid #e7e7e7;}
+.hl5 a{font-size: 10px;margin-right: 5px;}
+
+.hl6{width:225px;height:32px;margin-left: 15px;line-height: 32px;}
+.hl6 img{float:left;margin-top: 8px;}
+.hl6 a{float:left;display:block;width:200px;font-weight: bold;font-size: 11px;margin-left: 5px;border-bottom: 1px solid #e7e7e7;}
+
+
+/* <!-- 左弹出层 --> */
+.fixLeft{position: fixed;bottom: 20px;left: 10px;z-index: 300;display: none;}
+.fixLeft .top{background: url("../images/index/fixLeft.png") no-repeat;width: 125px;height: 230px;position: relative;}
+.fixLeft .foot{margin:0 8px;width: 106px;height:354px;}
+/* <!-- 上弹出层 --> */
+.fixTop{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #303030;
+    z-index: 200;
+    height: 60px;
+}
+.fixTop .full{width: 1090px;margin: 0 auto;}
+.fixTop .full .logo{   
+    background: url("../image/topLogo.png") no-repeat;
+    display: block;
+    width: 181px;
+    height: 45px;
+    float: left;
+    margin-top: 9px;
+}
+.fixTop .full .list{float: left;margin: 5px 0 0 5px;}
+.fixTop .full .list li{float: left;padding: 0 15px;line-height: 35px;}
+.fixTop .full .list li a{font-size: 14px;position: relative;display: block;color: #ff5c00;font-weight: bold;}
+.fixTop .full form{height: 39px;background:#ec3e7d;position: relative;width: 536px;margin:13px 0 0 150px;}
+.fixTop .full form input{width:88%;background-color: #FFF;color:#666;font-size:12px;margin: 0;padding: 3px 3px 3px 3px;height: 25px;line-height: 25px;margin-top: 2px;margin-left: 2px}
+.fixTop .full form button{
+    width: 18%;
+    height: 39px;
+    background-color: #ec3e7d;
+    line-height: 39px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color:#FFFFFF;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+.fixTop .full form button i{background: url("../images/bg3.png") -1px -84px no-repeat ;display: block;width: 24px;height: 24px;border:none;outline: 0;margin:5px 0 0 10px}
+/* <!-- 右固定层 --> */
+.fixRight{
+    position: fixed;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 40px;
+    height: 100%;
+    background-color: #4c4c4c;
+    box-shadow: -3px 0 17px rgba(0,0,0,0.15);
+}
+.fixRight .lv1,.lv2,.lv3,.lv4{height:25%;cursor:pointer;}
+.fixRight .lv1{height:33%;cursor: pointer;}
+.fixRight .lv2{height:8%;cursor: pointer;}
+.fixRight .lv3{height: 17%;cursor: pointer;}
+.fixRight .lv4{height: 42%;cursor: pointer;}
+.fixRight i{
+    display: inline-block;
+    background-image: url(../images/bg5.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 0;
+    overflow: hidden;
+    zoom: 1;
+    width: 22px;
+    height: 22px;
+    top: 50px;
+    left: 6px
+}
+.fixRight .lv1 i{top: 100px;}
+.fixRight .lv2 i{background-position: 0 -25px;}
+.fixRight .lv3 i{background-position: -22px -100px;}
+.fixRight .lv4 i{background-position: 0 -130px;top: 130px;}
+.fixRight .lv3{
+    background-color: #ff5c00;
+    color: #fff;
+    margin-left: -1px;
+    width: 37px;
+}
+.fixRight .lv3 span{display: inline-block;width: 26px;margin: 60px 5px;}
+.fixRight .lv2{
+    margin-left: -1px;
+    width: 37px;
+}
+.fixRight .lv2 span{display: inline-block;width: 22px;margin: 60px 11px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

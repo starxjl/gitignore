@@ -1,0 +1,50 @@
+.dl_logowarp{width:100%;height:134px;overflow: hidden;}
+.dl_logo{width:1090px;height:134px;margin: 0 auto;}
+.dl_logo h3{margin-top: 21px;}
+
+.login_picwarp{width:100%;min-height:490px;overflow: hidden;}
+.login_pic{width:1090px;height:490px;margin: 0 auto;}
+.login_pic1{width:600px;height:410px;overflow: hidden;padding-top: 80px;}
+.login{width:420px;min-height:490px;border:1px solid #e9e9e9;}
+.login_S{width:385px;height:60px;padding:40px 0 0 35px;}
+.login_S p{color:#5a5d6c;font-size: 20px;}
+.login_S p span{font-size: 12px;margin-left: 115px;}
+.login_S p a{color:#ec3e7d;}
+
+#username
+	{
+		width:318px;height:34px;
+		padding-left:30px;birder:1px solid #cccccc;
+		background: url(../image/input.jpg) no-repeat 10px center;
+		margin:0 0 25px 35px;
+		font-size: 12px;
+	}
+#password
+	{
+		width:318px;height:34px;
+		padding-left:30px;birder:1px solid #cccccc;
+		background: url(../image/input2.jpg) no-repeat 10px center;
+		margin-left: 35px;
+		font-size: 12px;
+	}
+#checkbox{
+	margin:35px 0 0 38px;
+	
+}
+#checkbox span{font-size: 12px;margin-left: 15px; }
+#checkbox a{font-size: 12px; color:#ec3e7d;margin-left: 20px;}
+
+#btnsubmit{width:350px;height:40px;margin:40px 0 0 35px;color: #fff;background: #ec3e7d;font-size: 14px;text-align: center;line-height: 40px;}
+
+.disanfang{width:230px;height:65px;margin:50px 0 0 35px;}
+.disanfang h4{font-size: 14px;color:#3e3e3e;height:25px;}
+.weibo{width:230px;height:40px;}
+.weibo dl{width:110px;height:40px;float:left;}
+.weibo dt{margin:5px 0 0 5px;float:left;}
+.weibo dd{float:left;}
+.weibo dd a{color:#3e3e3e;margin-left:3px;font-size: 12px;line-height: 40px;text-align: center;}
+
+
+
+
+
